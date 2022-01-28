@@ -5,6 +5,14 @@
       if (condition):
         break
   ```
-  - The Keyword **pass** does nothing. It is useful to use to have an empty function or empty loop. 
-  - Adjacent strings in python are concatenated!. So ```"String A " "String B"``` is equal to ```"String A String B"```
+- The Keyword **pass** does nothing. It is useful to use to have an empty function or empty loop. 
+- Adjacent strings in python are concatenated!. So ```"String A " "String B"``` is equal to ```"String A String B"```
+- Use 3 doulbe quotes or single quotes for multiline string
+    ```python
+    """ This is
+        A multi
+        Line String
+        """
+    ```
+- use r infront of a string to denote a raw string(what you see is what you get) ``` r'This \ is what \n' ``` the output will be This \ is what \n
        
