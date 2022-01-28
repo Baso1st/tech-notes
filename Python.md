@@ -16,6 +16,6 @@
     ```
 - use r infront of a string to denote a raw string(what you see is what you get) ``` r'This \ is what \n' ``` the output will be This \ is what \n
 - Two adjacent strings are automatically concatenated ```"String A " "String B " ``` equals ``` "String A String B"```
-- Python has a datatype called **byte** that's like string and you can convert between string and byte using encode and decode. 
+- Python has a datatype called **byte** that has many of the capabilities of string, but it is a sequence of bytes rather than a sequence of unicode. You can can convert between string and byte using encode and decode. 
 - 
        
