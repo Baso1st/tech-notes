@@ -19,4 +19,12 @@
 - Python has a datatype called **byte** that has many of the capabilities of string, but it is a sequence of bytes rather than a sequence of unicode. You can can convert between string and byte using encode and decode. 
 - You can multiply strings!!!
   - ``` result = 'a' * 3 ``` result now has the value ```'aaa'```
-       
+- Calling a function with a default argument has a bit unexpected behaviour... 
+  ```python
+  add_spam(menu=[]):
+    menu.append('spam')
+    return menu
+  
+  print(add_spam()) # The output is ['spam']
+  print(add_spam()) # We called the function another time now the output is ['spam', 'spam']!!! That's because the menu argument is created exaclty once when the def statement is created. 
+  
