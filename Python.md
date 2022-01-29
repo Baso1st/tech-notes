@@ -27,4 +27,9 @@
   
   print(add_spam()) # The output is ['spam']
   print(add_spam()) # We called the function another time now the output is ['spam', 'spam']!!! That's because the menu argument is created exaclty once when the def statement is created. 
+  ``` 
+  The situation above is different if you passed an immutable object to the function like
+    ```python 
+      add_spam(menu=none):
+    ```
   
