@@ -32,4 +32,10 @@
     ```python 
       add_spam(menu=none):
     ```
-  
+- To modify a global variable from within a function we need to use the word global
+  ```python
+    count = 0
+    def modifyCount():
+      global count
+      count = 2
+  ```
