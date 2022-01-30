@@ -40,3 +40,4 @@
       count = 2
   ```
 - Joining strings is interesting in python ``` ';'.join(['stringA', 'stringB', 'stringC']) ``` the result is ```stringA;stringB;stringC```
+- The string partition function is very interesting too!!!
