@@ -46,3 +46,4 @@
     words = "This is a string with some randome words in it".split() # It would be  ['This', 'is', 'a', 'string', 'with'....]
     thisIsTheComprehension = [len(word) for word in words] # It would be [4, 2, a, 5, 4, .... ]
   ```
+  - Comprehensions can be used to create sets and dictionaries as well.
