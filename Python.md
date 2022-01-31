@@ -1,4 +1,4 @@
-- Python doesn't have do-while. Instead you can use while true a condition at the end to break
+- Python doesn't have do-while. Instead you can use while true and a condition at the end to break
   ```python
     While True:
       //Do Something
