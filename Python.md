@@ -41,3 +41,8 @@
   ```
 - Joining strings is interesting in python ``` ';'.join(['stringA', 'stringB', 'stringC']) ``` the result is ```stringA;stringB;stringC```
 - The string partition function is very interesting too!!!
+- Python comprehensions example 
+  ```python
+    words = "This is a string with some randome words in it".split() # It would be  ['This', 'is', 'a', 'string', 'with'....]
+    thisIsTheComprehension = [len(word) for word in words] # It would be [4, 2, a, 5, 4, .... ]
+  ```
