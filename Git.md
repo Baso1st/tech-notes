@@ -9,7 +9,8 @@
 - git checkout 
 - git checkout -b 
 - git clone
-
+- To see all local branches  ```git branch```
+- To see all remote branches ```git branch -r```
 --------------
 
 Commands to reconnect to a new origin
@@ -17,3 +18,14 @@ Commands to reconnect to a new origin
 - git remote -v
 - git remote set-url origin "*new-url*"
 
+---------------------
+**Merge dev into another branch**:
+```  
+git checkout dev 
+git pull 
+git checkout branch-x
+git rebase develop
+```  
+Or, when on branch-x:
+
+```git fetch && git rebase origin/develop```
