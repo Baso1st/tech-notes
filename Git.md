@@ -1,10 +1,13 @@
 - git add *
 - git commit -m "message"
 - git status
+-----------------------
 - git stash 
 - git stash branch <branchName>
 - git stash pop
 - git stash pop "stash@{1}"
+- More helpful stash commands can be found here https://stackoverflow.com/a/10726185/2616000
+--------------------------------
 - git reset --hard "undo uncommitted changes"
 - git checkout 
 - git checkout -b 
