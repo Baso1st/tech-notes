@@ -1,6 +1,10 @@
+- git status
+- git diff
+- git branch
+- git pull
+- git push
 - git add *
 - git commit -m "message"
-- git status
 -----------------------
 - git stash 
 - git stash branch <branchName>
