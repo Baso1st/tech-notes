@@ -5,6 +5,7 @@
 - git push
 - git add *
 - git commit -m "message"
+- To Fix a commit message ```git commit --amend -m "New commit message"``` 
 -----------------------
 - git stash 
 - git stash branch <branchName>
