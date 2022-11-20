@@ -37,3 +37,6 @@ git rebase develop
 Or, when on branch-x:
 
 ```git fetch && git rebase origin/develop```
+
+-------------------------------------
+- To change git user name and email on one repo or globally checkout this link https://stackoverflow.com/a/36782014/2616000
