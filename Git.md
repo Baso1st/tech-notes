@@ -40,3 +40,7 @@ Or, when on branch-x:
 
 -------------------------------------
 - To change git user name and email on one repo or globally checkout this link https://stackoverflow.com/a/36782014/2616000
+-------------------------------------
+**To cancel/revert commited change**
+- Run ```git log --oneline``` to see the commit history
+- Run ```git reset <commit-id>``` to cancel everything after the specified commit id. 
