@@ -45,3 +45,4 @@ Or, when on branch-x:
 - Run ```git log --oneline``` to see the commit history
 - Run ```git reset --hard <CommitIdForCommitYouWantToBeAt>``` to cancel everything after the specified commit id. 
 - Run ```git reset --soft <CommitIdForLastCommitYouWantToRemove>``` everything before this and including it will be canceled, up until the one above. 
+- Nice StackOverflow Link https://stackoverflow.com/questions/1463340/how-can-i-revert-multiple-git-commits  
