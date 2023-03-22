@@ -43,4 +43,5 @@ Or, when on branch-x:
 -------------------------------------
 **To cancel/revert commited change**
 - Run ```git log --oneline``` to see the commit history
-- Run ```git reset <commit-id> --hard``` to cancel everything after the specified commit id. 
+- Run ```git reset --hard <CommitIdForCommitYouWantToBeAt>``` to cancel everything after the specified commit id. 
+- Run ```git reset --soft <CommitIdForLastCommitYouWantToRemove>``` everything before this and including it will be canceled, up until the one above. 
