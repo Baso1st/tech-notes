@@ -1,3 +1,4 @@
+### General
 - git status
 - git diff
 - git branch
@@ -7,12 +8,14 @@
 - git commit -m "message"
 - To Fix a commit message ```git commit --amend -m "New commit message"``` 
 -----------------------
+### Stashing
 - git stash 
 - git stash branch <branchName>
 - git stash pop
 - git stash pop "stash@{1}"
 - More helpful stash commands can be found here https://stackoverflow.com/a/10726185/2616000
 --------------------------------
+### Reset
 - git reset --hard "undo uncommitted changes"
 - git checkout 
 - git checkout -b 
@@ -21,7 +24,7 @@
 - To see all remote branches ```git branch -r```
 --------------
 
-Commands to reconnect to a new origin
+### Connect to a new origin
 
 - git remote -v
 - git remote set-url origin "*new-url*"
