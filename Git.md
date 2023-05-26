@@ -49,3 +49,6 @@ Or, when on branch-x:
 - Run ```git reset --hard <CommitIdForCommitYouWantToBeAt>``` to cancel everything after the specified commit id. 
 - Run ```git reset --soft <CommitIdForLastCommitYouWantToRemove>``` everything before this and including it will be canceled, up until the one above. 
 - Nice StackOverflow Link https://stackoverflow.com/questions/1463340/how-can-i-revert-multiple-git-commits  
+#### To cancel locally commited changes
+- Run ```git reset --soft HEAD~1``` to take the commited changes back to staging
+- Run ```git reset HEAD~1``` to take the commited changes back to show up as changes in your file that you commit or discard.
