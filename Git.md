@@ -54,5 +54,5 @@ Or, when on branch-x:
 - Run ```git reset HEAD~1``` to take the commited changes back to show up as changes in your file that you commit or discard.
 --------------------------------------------------
 #### To checkout a remote branch
-```git fetch origin```
-```git checkout -b local_branch_name origin/remote_branch_name```
+- ```git fetch origin```
+- ```git checkout -b local_branch_name origin/remote_branch_name```
