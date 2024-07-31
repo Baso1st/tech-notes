@@ -56,3 +56,6 @@ Or, when on branch-x:
 #### To checkout a remote branch
 - ```git fetch origin```
 - ```git checkout -b local_branch_name origin/remote_branch_name```
+--------------
+#### To amend a commit
+- ```git commit --amend```
