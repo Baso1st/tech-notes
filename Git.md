@@ -44,6 +44,9 @@ Or, when on branch-x:
 - To see all local branches  ```git branch```
 - To see all remote branches ```git branch -r```
 --------------
+#### To Undo last local commit
+- ```git reset HEAD~```
+--------------
 #### To cancel/revert commited change
 - Run ```git log --oneline``` to see the commit history
 - Run ```git reset --hard <CommitIdForCommitYouWantToBeAt>``` to cancel everything after the specified commit id. 
