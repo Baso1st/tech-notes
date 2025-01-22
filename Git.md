@@ -62,3 +62,6 @@ Or, when on branch-x:
 --------------
 #### To amend a commit
 - ```git commit --amend```
+
+#### To generate a diff file 
+```git diff master..158889-m-search > diff-output.txt```
